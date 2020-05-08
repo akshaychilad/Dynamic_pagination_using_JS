@@ -1,0 +1,14 @@
+[
+    {
+      "tabName": "Tab one",
+      "tabData": "Tab one Content"
+    },
+    {
+      "tabName": "Tab two",
+      "tabData": "Tab two Content"
+    },
+    {
+      "tabName": "Tab three",
+      "tabData": "Tab three Content"
+    }
+  ]

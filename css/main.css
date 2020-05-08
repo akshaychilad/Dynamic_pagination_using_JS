@@ -1,0 +1,77 @@
+#page{
+    width:1000px;
+    height:1000px;
+    margin:auto;
+    
+}
+
+.heading{
+    font-size: 50px;
+    color: chocolate;
+    text-align: center;
+}
+
+
+#tabs{
+    padding-top:50px;
+}
+
+#tabs ul li{
+    padding: 10px;
+    margin-right: 5px;
+    border:1px solid blue;
+    float: left;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#tabs ul li.active{
+    background-color: dimgrey;
+    font-weight: bold;
+    color:red;
+    border-radius: 5px;
+}
+
+#tabs ul li.active{
+    background-color: blueviolet;
+    color: black;
+    font-weight: bold;
+}
+
+.tabContent{
+    clear:left;
+    padding:10px;
+    text-shadow: inherit;
+    height:200px;
+    width:940px;
+    border:5px solid #000000;
+    margin-top:70px;
+    text-align: center;
+    padding-top: 200px;
+}
+
+
+
+#tabs #pagenation{
+    clear:left;
+    padding: 10px;
+    width:940px;
+} 
+
+ #tabs #pagenation ul,#tabs #pagenation span{
+    float: left;
+    cursor:pointer;
+ }
+#tabs #pagenation ul{
+    float:left;
+    padding:5px;
+
+} 
+#pagenation span{
+    padding-top:15px;
+    cursor: pointer;
+    border: 1px solid black;
+    text-align: center;
+    padding: 2px;
+    border-radius: 20px;
+}
+
